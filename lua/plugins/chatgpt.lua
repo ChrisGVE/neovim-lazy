@@ -7,9 +7,9 @@ return {
     "nvim-telescope/telescope.nvim",
   },
   config = function()
-    require("chatgpt").setup({
-      api_key_cmd = "op read 'op://personal/OpenAI/api key' --no-newline",
-    })
+    -- require("chatgpt").setup({
+    --   api_key_cmd = 'op read "op://personal/OpenAI/api key" --no-newline',
+    -- })
   end,
   keys = {
     {
