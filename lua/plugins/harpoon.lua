@@ -34,7 +34,7 @@ return {
       function()
         require("harpoon.ui").toggle_quick_menu()
       end,
-      desc = "Harpoon quik menu",
+      desc = "Harpoon quick menu",
     },
   },
 }
