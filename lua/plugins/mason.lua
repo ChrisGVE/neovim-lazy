@@ -19,5 +19,6 @@ return {
       "cpplint",
       "clang-format",
     })
+    require("mason-registry").update() -- Update all installed packages
   end,
 }
