@@ -8,6 +8,8 @@ vim.keymap.set(
   { noremap = true, silent = true, desc = "Resume" }
 )
 
+local Util = require("lazyvim.util")
+
 -- Registering with WhichKey
 local wk = require("which-key")
 
@@ -51,6 +53,26 @@ wk.register({
         require("telescope.builtin").grep_string({ search = vim.fn.input("Grep > ") })
       end,
       "Grep string",
+    },
+  },
+  ["<leader>g"] = {
+    G = {
+      function()
+        require("neogit").open({ kind = "split_above" })
+      end,
+      "Neogit (cwd)",
+    },
+    g = {
+      function()
+        require("neogit").open({ kind = "split_above", cwd = Util.get_root() })
+      end,
+      "Neogit (root dir)",
+    },
+    C = {
+      function()
+        require("neogit").open({ "commit" })
+      end,
+      "Neogit commit",
     },
   },
 })
