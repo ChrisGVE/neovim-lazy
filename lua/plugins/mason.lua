@@ -11,7 +11,6 @@ return {
       "autoflake",
       "autopep8",
       "rust-analyzer",
-      "rustfmt",
       "lua-language-server",
       "json-lsp",
       "clangd",
