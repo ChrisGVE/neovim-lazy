@@ -68,6 +68,12 @@ wk.register({
       end,
       "Neogit (root dir)",
     },
+    f = {
+      function()
+        require("neogit").open({ kind = "floating" })
+      end,
+      "Neogit float (experimental)",
+    },
     C = {
       function()
         require("neogit").open({ "commit" })
