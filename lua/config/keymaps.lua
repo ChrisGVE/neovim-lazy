@@ -21,8 +21,8 @@ wk.register({
   -- Jump and land on middle line
   ["<C-d>"] = { "<C-d>zz", "Scroll down, middle line" },
   ["<C-u>"] = { "<C-u>zz", "Scroll up, middle line" },
-  ["<C-f>"] = { "<C-f>zz", "Scroll forward, middle line" },
-  ["<C-b>"] = { "<C-b>zz", "Scroll backward, middle line" },
+  -- ["<C-f>"] = { "<C-f>zz", "Scroll forward, middle line" },
+  -- ["<C-b>"] = { "<C-b>zz", "Scroll backward, middle line" },
   ["<PageUp>"] = { "<PageUp>zz", "Page up, line middle" },
   ["<PageDown>"] = { "<PageDown>zz", "Page down, line middle" },
   n = { "nzzzv", "Next, line middle" },

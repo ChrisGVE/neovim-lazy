@@ -23,7 +23,7 @@ return {
       desc = "Nav to harpoon file 3",
     },
     {
-      "<leader>a",
+      "<leader>A",
       function()
         require("harpoon.mark").add_file()
       end,
