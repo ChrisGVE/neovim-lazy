@@ -18,7 +18,9 @@ return {
       "cpptools",
       "cpplint",
       "clang-format",
+      "ocaml-lsp",
+      "ocaml-format",
     })
-    require("mason-registry").update() -- Update all installed packages
+    -- require("mason-registry").update() -- Update all installed packages
   end,
 }
