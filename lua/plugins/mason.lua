@@ -19,7 +19,7 @@ return {
       "cpplint",
       "clang-format",
       "ocaml-lsp",
-      "ocaml-format",
+      "ocamlformat",
     })
     -- require("mason-registry").update() -- Update all installed packages
   end,
